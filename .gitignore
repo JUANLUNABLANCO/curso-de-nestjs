@@ -1,0 +1,72 @@
+# Ignorar los directorios node_modules en todos los proyectos
+*/node_modules
+
+# Ignorar los archivos de registro
+*.log
+
+# Ignorar los archivos de respaldo
+*~
+
+# Ignorar los archivos de configuración específicos del usuario
+.vscode/
+.idea/
+*/.vscode/
+*/.idea/
+# Ignorar los archivos de construcción y las carpetas de salida
+/dist/
+/out/
+/.build/
+*/dist/
+*/out/
+*/.build/
+
+# Ignorar los archivos de dependencias
+*.pid
+*.seed
+*.pid.lock
+*.log
+*.log.*
+*.sqlite
+*.db
+*.sqlite3
+*.mdf
+*.ldf
+npm-debug.log*
+
+# Ignorar los archivos de configuración
+/.env
+/.env.local
+/.env.*.local
+!.env.example
+*/.env
+*/.env.local
+*/.env.*.local
+!*/.env.example
+
+
+# Ignorar los archivos de compilación
+/coverage/
+/.nyc_output/
+*/coverage/
+*/.nyc_output/
+
+# Ignorar las carpetas de respaldo
+/.history/
+/.vs/
+
+# Ignorar los archivos de caché
+/cache/
+*.cache
+
+# Ignorar los archivos temporales
+*.tmp
+*.temp
+
+# Ignorar los archivos generados por IDE y editores de texto
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw*
